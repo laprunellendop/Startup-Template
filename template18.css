@@ -1,0 +1,126 @@
+.top{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul a{
+    text-decoration: none;
+}
+nav ul::after,nav ul::before{
+    content: "";
+    display: table;
+    clear: both;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+a{
+    color: inherit;
+}
+.bar-item{
+    text-decoration: none;
+    padding: 8px 16px;
+    float: left;
+    display: block;
+}
+img{
+    vertical-align: middle;
+}
+.button:hover{
+    background-color: #ccc;
+    color: black;
+}
+.wide{
+    letter-spacing: 4px;
+}
+.bgimg{
+    background-image: url('images/mac.jpg');
+    background-position: center;
+    background-size: cover; 
+    min-height: 100%;
+}
+.display-container{
+    position: relative;
+}
+.display-left{
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.text-white{
+    color: white;
+}
+.jumbo{
+    font-size: 65px;
+}
+.grayscale-min{
+    filter: grayscale(0.5);
+}
+.light-grey{
+    background-color: #f1f1f1!important;
+    color: black!important;
+}
+.padding-large{
+    padding: 12px 24px!important;
+}
+.hover-opacity:hover{
+    opacity: 1;
+}
+.opacity{
+    opacity: 0.6;
+}
+.row-padding{
+    padding: 0 8px;
+}
+.row-padding > .third{
+    padding: 0 8px;
+}
+.row-padding > .half{
+    padding: 0 8px;
+}
+.row-padding > .quarter{
+    padding: 0 8px;
+}
+.half,.third,.quarter{
+    width: 100%;
+    float: left;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.8;
+    font-size: 15px;
+   
+}
+body,html{
+    height: 100%;
+    line-height: 1.8;
+}
+h1,h2,h3{
+    font-weight: 400;
+    margin: 10px 0;
+}
+h1{
+    font-size: 36px;
+}
+h3{
+    font-size: 24px;
+}
+h2{
+    font-size: 30px;
+}
