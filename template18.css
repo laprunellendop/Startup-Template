@@ -41,6 +41,21 @@ img{
     background-color: #ccc;
     color: black;
 }
+.button{
+    font: inherit;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    text-align: center;
+
+}
+.border-radius{
+    border-radius: 4px;
+}
+.black{
+    background-color: black;
+    color: #fff!important;
+}
 .wide{
     letter-spacing: 4px;
 }
@@ -67,6 +82,9 @@ img{
 .grayscale-min{
     filter: grayscale(0.5);
 }
+.grayscale{
+    filter: grayscale(0.7);
+}
 .light-grey{
     background-color: #f1f1f1!important;
     color: black!important;
@@ -75,7 +93,7 @@ img{
     padding: 12px 24px!important;
 }
 .hover-opacity:hover{
-    opacity: 1;
+    opacity: 0.6;
 }
 .opacity{
     opacity: 0.6;
@@ -96,7 +114,46 @@ img{
     width: 100%;
     float: left;
 }
-
+.ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.center{
+    text-align: center;
+}
+.justify{
+    text-align:justify!important;
+}
+.ul li{
+    padding: 8px 16px;
+    border-bottom: 1px solid #ccc;
+}
+.xlarge{
+    font-size: 24px!important;
+}
+p{
+    margin: 15px 0;
+}
+@media screen and (min-width:601px) {
+    .third{
+        width: 33.3333%;
+    }
+    .half{
+        width: 50%;
+    }
+    .quarter{
+        width: 25%;
+    }
+    #top{
+        display: none;
+    }
+}
+.row::after,.row::before,.row-padding::after,.row-padding::before,.container::after,.container::before{
+    content: "";
+    display: table;
+    clear: both;
+}
 *{
     padding: 0;
     margin: 0;
@@ -111,7 +168,7 @@ body,html{
     height: 100%;
     line-height: 1.8;
 }
-h1,h2,h3{
+h1,h2,h3,h4{
     font-weight: 400;
     margin: 10px 0;
 }
@@ -123,4 +180,7 @@ h3{
 }
 h2{
     font-size: 30px;
+}
+h4{
+    font-size: 20px;
 }
