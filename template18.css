@@ -37,7 +37,7 @@ a{
 img{
     vertical-align: middle;
 }
-.button:hover{
+.button-hover:hover{
     background-color: #ccc;
     color: black;
 }
@@ -72,6 +72,7 @@ img{
     position: absolute;
     top: 50%;
     left: 0;
+    transform: translate(0%,-50%);
 }
 .text-white{
     color: white;
@@ -92,12 +93,10 @@ img{
 .padding-large{
     padding: 12px 24px!important;
 }
-.hover-opacity:hover{
+.opacity,.hover-opacity:hover{
     opacity: 0.6;
 }
-.opacity{
-    opacity: 0.6;
-}
+
 .row-padding{
     padding: 0 8px;
 }
