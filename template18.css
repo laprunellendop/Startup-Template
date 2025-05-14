@@ -144,8 +144,13 @@ p{
     .quarter{
         width: 25%;
     }
-    #top{
+}
+@media screen and (max-width:601px) {
+    .top{
         display: none;
+    }
+    .hide{
+        display: block!important;
     }
 }
 .row::after,.row::before,.row-padding::after,.row-padding::before,.container::after,.container::before{
